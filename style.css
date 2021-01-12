@@ -1,0 +1,58 @@
+.heading{
+	text-align: center;
+}
+#headpart{
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+}
+.confirmed:hover{
+	background-color: #ffb3b3;
+	
+}
+.active:hover{
+	background-color:  #b3ccff;
+}
+.recovered:hover{
+	background-color:  #66ff99
+}
+.deaths:hover{
+	background-color: #121212;
+	color: white;
+}
+.confirmed{
+	padding: 1rem;
+	margin-left: 10px;
+	text-align: center;
+}
+.active{
+	padding: 1rem;
+	margin-left: 10px;
+	text-align: center;
+}
+.recovered{
+	padding: 1rem;
+	margin-left: 10px;
+	text-align: center;
+}
+.deaths{
+	padding: 1rem;
+	margin-left: 10px;
+	text-align: center;
+}
+
+
+#myChart {
+  
+  height: 450px !important;
+}
+@media(max-width: 850px){
+	/*#mychart{
+		width: 100%;
+	}*/
+	#coviddata{
+		width: 100%;
+	}
+	#headpart{
+		display: flex;
+	}
+}
